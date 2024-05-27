@@ -13,7 +13,7 @@ struct BenefitsView: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: 20) {
+            VStack(spacing: 40) {
                 ZStack {
                    HStack {
                        Spacer()
@@ -105,8 +105,6 @@ struct BenefitsView: View {
                     }
                 }
                 .padding(.top, 20)
-                
-                Spacer()
             }
             .padding()
         }
@@ -153,7 +151,6 @@ struct BenefitCardView: View {
             .cornerRadius(10)
             .padding(.horizontal)
             
-            // Badge
             HStack {
                 Image(systemName: "checkmark.seal.fill")
                     .foregroundColor(.black)

@@ -80,7 +80,7 @@ struct LegendAchievedView: View {
                                 .frame(width: 200, height: 60)
                                 .background(Color.white)
                                 .foregroundColor(Color.brown)
-                                .cornerRadius(30) // Borde redondeado
+                                .cornerRadius(30)
                         }
                     }
                     .padding(.horizontal)
